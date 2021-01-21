@@ -95,7 +95,7 @@ function parse(re) {
     }
 
     if (stack.length !== 1) {
-        throw new Error('Unmached groups in regular expressions');
+        throw new Error('Unmatched groups in regular expressions');
     }
 
     return stack[0];

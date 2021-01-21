@@ -16,7 +16,7 @@ function stateMatchesStringAtIndex(state, str, i) {
         return test(state.states, str.slice(i));
     }
 
-    throw new Error('Unsupporter element type');
+    throw new Error('Unsupported element type');
 }
 
 function test(states, str) {
